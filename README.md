@@ -1,20 +1,25 @@
-# ICCFM JCC Football Meet — Website Prototype
+# ICCFM 2026 — Champions Edition
 
-Responsive HTML, CSS and vanilla JavaScript prototype for the 2026 football meet.
+A responsive HTML/CSS/JavaScript championship landing page for the ICCFM JCC Football Meet.
 
-## Features
-- Responsive tournament landing page and navigation
-- Match centre with All, Live, Upcoming and Results filters
-- Sample group standings, fixtures and results
-- Tournament stats and fan-zone demo
-- Match desk form that previews score changes in the current browser session
+## Tournament results entered from organiser-provided details
+- Champions: Faujdarhat Cadet College (FCC)
+- Runners-up: Jhenidah Cadet College (JCC)
+- Golden Boot: Cadet Nirab (FCC), 5 goals
+- Second top scorer: Cadet Rahmatullah, 3 goals
+- Third top scorer: Cadet Labib (SCC), 2 goals
 
-## Important
-All scores, colleges, fixtures, times and standings in this version are sample data. The match desk is not authenticated and does not persist changes. Do not use it as an official live scoreboard without a secure backend, database, authentication and verified tournament data.
+## Design
+Dark stadium-inspired colours, lime and gold highlights, responsive navigation, animated tournament ticker and medallion, champions podium, award cards and photo gallery.
 
-## Run locally
-Open `index.html` in a modern browser, or run `python -m http.server 8000` in this folder and visit `http://localhost:8000`.
+## Images and crests
+The FCC, JCC and SCC crest images are hotlinked from Seeklogo listings that identify the colleges. Stadium imagery is illustrative from Unsplash. The FCC field image is linked through Wikimedia Commons. The gallery note on the website explains that atmosphere imagery is illustrative and not verified tournament photography. External image URLs may change; for long-term reliability, obtain permission where needed and add approved image files to this repository.
 
-## Publish with GitHub Pages
-In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save. Wait for GitHub to provide the published URL.
+## Publish
+GitHub Pages can publish this static site from Settings → Pages → Deploy from a branch → main → /(root). Commits to main will trigger a Pages rebuild if Pages is enabled.
 
+## Local preview
+Open `index.html` in a browser, or run `python -m http.server 8000` in this folder and visit `http://localhost:8000`.
+
+## Notes
+The results and scorer names above were supplied by the site owner; they have not been independently verified. This is a static final-results presentation, not a live scoring backend.
