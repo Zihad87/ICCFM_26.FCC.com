@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d22">
+  <meta name="description" content="ICCFM JCC Football Meet — fixtures, results, standings and tournament updates.">
+  <title>ICCFM JCC | Football Meet 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="topline"><span>INTER CADET COLLEGE FOOTBALL MEET</span><span>SEASON 2026 <b>●</b> TOGETHER FOR THE GAME</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ICCFM home"><span class="brand-mark">⚽</span><span><strong>ICCFM<span>.</span></strong><small>JCC FOOTBALL MEET</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation"><i></i><i></i><i></i></button>
+    <nav class="nav" id="primaryNav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#matches">Matches</a><a class="nav-link" href="#standings">Standings</a><a class="nav-link" href="#fixtures">Fixtures</a><a class="nav-link" href="#stats">Stats</a>
+      <a class="admin-link" href="#match-desk">Match desk <span>↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> THE TOURNAMENT HUB <span class="eyebrow-line"></span> 2026</div>
+        <h1>One pitch.<br>Many <em>legends.</em></h1>
+        <p class="hero-description">Every fixture, every goal, every moment. Follow the Inter Cadet College Football Meet from kickoff to the final whistle.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#matches">Explore match centre <span>↗</span></a><a class="text-link" href="#standings">View standings <span>→</span></a></div>
+        <div class="hero-meta"><div><strong>01</strong><span>ONE COMMUNITY</span></div><div><strong>90′</strong><span>EVERY SECOND COUNTS</span></div><div><strong>∞</strong><span>PRIDE IN EVERY PLAY</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a football pitch"><div class="art-glow"></div><div class="pitch"><div class="pitch-line halfway"></div><div class="pitch-circle"></div><div class="pitch-box left"></div><div class="pitch-box right"></div><div class="pitch-goal left"></div><div class="pitch-goal right"></div><div class="ball">⚽</div></div><div class="floating-stat"><span class="live-dot"></span> MATCH DAY<br><b>Starts here.</b></div><div class="art-label"><span>ICCFM / 26</span><strong>PLAY WITH PRIDE.</strong></div></div>
+    </section>
+    <div class="ticker"><div class="ticker-inner"><span>RESPECT</span><b>✳</b><span>TEAMWORK</span><b>✳</b><span>DISCIPLINE</span><b>✳</b><span>PASSION</span><b>✳</b><span>SPORTSMANSHIP</span><b>✳</b><span>RESPECT</span></div></div>
+    <section class="section" id="matches">
+      <div class="section-heading"><div><div class="eyebrow">FOLLOW THE ACTION <span class="eyebrow-line"></span> 01</div><h2>Match <em>centre.</em></h2></div><a class="section-link" href="#fixtures">ALL FIXTURES <span>↗</span></a></div>
+      <div class="match-toolbar"><div class="tabs" role="group" aria-label="Filter matches"><button class="tab active" data-filter="all" aria-pressed="true">All matches</button><button class="tab" data-filter="live" aria-pressed="false">● Live</button><button class="tab" data-filter="upcoming" aria-pressed="false">Upcoming</button><button class="tab" data-filter="finished" aria-pressed="false">Results</button></div><span class="toolbar-note">SAMPLE MATCH DATA</span></div>
+      <div class="match-grid" id="matchGrid" aria-live="polite"></div>
+      <p class="data-note">Demo only: scores and schedules below are illustrative and are not official tournament results.</p>
+    </section>
+    <section class="section split-section" id="standings">
+      <div class="standings-panel"><div class="section-heading compact"><div><div class="eyebrow">THE TABLE <span class="eyebrow-line"></span> 02</div><h2>Group <em>standings.</em></h2></div><span class="group-tag">GROUP A · DEMO</span></div>
+        <div class="table-wrap"><table class="standings-table"><thead><tr><th>#</th><th>COLLEGE</th><th>P</th><th>GD</th><th>PTS</th></tr></thead><tbody id="standingsBody"></tbody></table></div><p class="table-footnote"><span class="qualification-key"></span> Top two shown as qualification places in this sample table.</p>
+      </div>
+      <aside class="standings-note"><div class="note-number">THE ROAD TO <span>GLORY</span></div><div class="note-mark">✳</div><h3>Every point<br>matters.</h3><p>Keep an eye on the table as the competition unfolds. Standings here use illustrative data until official results are entered.</p><a href="#fixtures" class="text-link">Browse fixtures <span>→</span></a></aside>
+    </section>
+    <section class="section fixtures-section" id="fixtures"><div class="section-heading"><div><div class="eyebrow">MARK YOUR CALENDAR <span class="eyebrow-line"></span> 03</div><h2>Fixtures &amp; <em>results.</em></h2></div></div><div class="fixture-list" id="fixtureList"></div></section>
+    <section class="stats-band" id="stats"><div><div class="eyebrow">NUMBERS TELL A STORY <span class="eyebrow-line"></span> 04</div><h2>The game is<br>more than a score.</h2><p>Celebrate the effort, teamwork and moments that make the meet special.</p></div><div class="stats-cards"><article class="big-stat"><span class="big-stat-icon">⚽</span><small>DEMO MATCHES</small><strong id="matchCount">06</strong><span class="stat-caption">in this preview</span></article><article class="big-stat"><span class="big-stat-icon">◷</span><small>LIVE MATCHES</small><strong id="liveCount">01</strong><span class="stat-caption">sample status</span></article><article class="big-stat"><span class="big-stat-icon">✳</span><small>TEAM SPIRIT</small><strong>100%</strong><span class="stat-caption">always the goal</span></article></div></section>
+    <section class="section fan-section" id="fans"><div class="fan-copy"><div class="eyebrow">THE CROWD IS PART OF IT <span class="eyebrow-line"></span> 05</div><h2>Bring the noise.<br><em>Back your team.</em></h2><p>Every cheer carries across the pitch. Choose your college in this local demo and show your tournament spirit.</p><a class="button button-dark" href="#fan-vote">Join the fan zone <span>↗</span></a></div><div class="fan-card" id="fan-vote"><div class="fan-card-top"><span>FAN ZONE / 2026</span><span class="fan-star">✳</span></div><h3>Who are you<br>supporting?</h3><p>This is a visual demo; votes are not collected or stored.</p><form id="voteForm"><label for="collegeVote">Choose your college</label><select id="collegeVote" required><option value="">Select a college</option><option>Jhenidah Cadet College</option><option>Faujdarhat Cadet College</option><option>Rangpur Cadet College</option><option>Sylhet Cadet College</option><option>Mirzapur Cadet College</option><option>Rajshahi Cadet College</option><option>Barishal Cadet College</option><option>Pabna Cadet College</option></select><button class="button button-primary vote-button" type="submit">Show my support <span>→</span></button><p class="form-message" id="voteMessage" aria-live="polite"></p></form><div class="fan-card-foot">ONE GAME. MANY COLLEGES. ONE COMMUNITY.</div></div></section>
+    <section class="section admin-section" id="match-desk"><div class="admin-intro"><div class="eyebrow">ORGANISER PREVIEW <span class="eyebrow-line"></span> 06</div><h2>Match <em>desk.</em></h2><p>Preview score updates on this page. This form is not secured, does not save data, and must not be used for official live scoring.</p></div><form class="admin-form" id="scoreForm"><div class="form-field"><label for="matchSelect">Select match</label><select id="matchSelect"></select></div><div class="score-inputs"><div class="form-field"><label for="homeScore">Home score</label><input id="homeScore" type="number" min="0" max="99" value="0" required></div><span class="score-dash">—</span><div class="form-field"><label for="awayScore">Away score</label><input id="awayScore" type="number" min="0" max="99" value="0" required></div></div><div class="form-field"><label for="matchStatus">Match status</label><select id="matchStatus"><option value="upcoming">Upcoming</option><option value="live">Live</option><option value="finished">Finished</option></select></div><button class="button button-dark" type="submit">Update preview <span>↗</span></button><p class="form-message" id="adminMessage" aria-live="polite"></p></form></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">⚽</span><span><strong>ICCFM<span>.</span></strong><small>JCC FOOTBALL MEET</small></span></a><p>Built for the love of the game.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><div class="footer-bottom"><span>© 2026 ICCFM JCC · FAN-MADE PROTOTYPE</span><span>PLAY FAIR. PLAY TOGETHER.</span></div></footer>
+</body>
+</html>
