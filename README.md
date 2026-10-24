@@ -10,7 +10,7 @@ A responsive HTML/CSS/JavaScript championship landing page for the ICCFM JCC Foo
 - Third top scorer: Cadet Labib (SCC), 2 goals
 
 ## Design
-Dark stadium-inspired colours, lime and gold highlights, responsive navigation, animated tournament ticker and medallion, champions podium, award cards and photo gallery.
+Dark stadium-inspired colours, lime and gold highlights, responsive navigation, animated tournament ticker and medallion, scroll-triggered section reveals, subtle hover depth, ambient pointer lighting, champions podium, award cards and photo gallery. Logo images use multiply blending to visually remove white rectangular backgrounds against the cards.
 
 ## Images and crests
 The FCC, JCC and SCC crest images are hotlinked from Seeklogo listings that identify the colleges. The BCC monogram is linked through Wikimedia Commons. Stadium imagery is illustrative from Unsplash. The FCC field image is linked through Wikimedia Commons. The gallery note on the website explains that atmosphere imagery is illustrative and not verified tournament photography. External image URLs may change; for long-term reliability, obtain permission where needed and add approved image files to this repository.
@@ -27,3 +27,7 @@ The results and scorer names above were supplied by the site owner; they have no
 
 ## ICCFM identity
 The header currently uses a typographic ICCFM wordmark rather than an unverified event-logo image. The official ICCFM logo link requested by the site owner was not available in the current conversation context; replace this wordmark with the official asset once that link is supplied.
+
+
+## ICCFM logo reference
+The supplied reference site (https://iccfm-jcc.vercel.app/) could not be fetched by the available page reader during this update, and its logo asset could not be reliably identified. The header therefore retains the ICCFM wordmark rather than guessing an image URL or using an unrelated logo. The BCC monogram is sourced from the Wikimedia Commons Barisal Cadet College Monogram file.
